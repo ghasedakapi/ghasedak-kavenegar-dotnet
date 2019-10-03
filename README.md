@@ -35,14 +35,15 @@ catch (Ghasedak.Kavenegar.Exceptions.HttpException ex)
 	Console.Write("Message : " + ex.Message);
 }
 ```
-
-## همکاری
-پیشنهادات، مشکلات احتمالی و یا سرویس های جدید مورد نیاز خود را با در میان بگذارید <a href="mailto:support@ghasedak.io?Subject=Kavenegar-SDK" target="_top">support@ghasedak.io</a>
-  
-<hr>
+ 
 <div dir='rtl'>
 	
 ## راهنما
+
+
+### همکاری
+پیشنهادات، مشکلات احتمالی و یا سرویس های جدید مورد نیاز خود را با در میان بگذارید <a href="mailto:support@ghasedak.io?Subject=Kavenegar-SDK" target="_top">support@ghasedak.io</a>
+  
 
 ### معرفی سرویس قاصدک
 
