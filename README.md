@@ -21,7 +21,7 @@ try
 	Ghasedak.Kavenegar.KavenegarApi api = new Ghasedak.Kavenegar.KavenegarApi("Your Api Key");
 	var result = api.Send("SenderLine", "Your Receptor", "مهاجرت از کاوه نگار به قاصدک");
 	
-	Console.Write("r.Messageid.ToString()");
+	Console.Write(result.Messageid.ToString());
   
 }
 catch (Ghasedak.Kavenegar.Exceptions.ApiException ex) 
