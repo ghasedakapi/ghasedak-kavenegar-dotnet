@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Globalization;
-namespace Kavenegar.Utils
+namespace Ghasedak.Kavenegar.Utils
 {
  public class DateHelper
  {

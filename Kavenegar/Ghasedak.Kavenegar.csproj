@@ -7,8 +7,8 @@
     <ProjectGuid>{28209ADB-60BA-4E6C-B802-B2CC0AB85181}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Kavenegar</RootNamespace>
-    <AssemblyName>Kavenegar</AssemblyName>
+    <RootNamespace>Ghasedak.Kavenegar</RootNamespace>
+    <AssemblyName>Ghasedak.Kavenegar</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

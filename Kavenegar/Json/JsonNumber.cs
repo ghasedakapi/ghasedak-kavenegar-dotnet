@@ -1,4 +1,4 @@
-﻿namespace Kavenegar.Json
+﻿namespace Ghasedak.Kavenegar.Json
 {
  public class JsonNumber : JsonObject
  {

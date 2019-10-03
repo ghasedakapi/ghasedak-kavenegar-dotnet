@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-namespace Kavenegar.Utils
+namespace Ghasedak.Kavenegar.Utils
 {
  public class StringHelper
  {

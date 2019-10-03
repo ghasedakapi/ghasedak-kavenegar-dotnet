@@ -1,5 +1,5 @@
 using System;
-namespace Kavenegar.Models
+namespace Ghasedak.Kavenegar.Models
 {
  public class ReceiveResult
  {

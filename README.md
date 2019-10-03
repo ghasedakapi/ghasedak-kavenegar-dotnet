@@ -1,77 +1,65 @@
-# Dotnet SDK
 
-# <a href="http://kavenegar.com/rest.html">Kavenegar RESTful API Document</a>
-If you need to future information about API document Please visit RESTful Document
+# .Net migration library from Kavenegar to Ghasedak
 
-## Installation
-<p>
-First of all, You need to make an account on Kavenegar from <a href="https://panel.kavenegar.com/Client/Membership/Register">Here</a>
-</p>
-<p>
-After that you just need to pick API-KEY up from <a href="http://panel.kavenegar.com/Client/setting/index">My Account</a> section.
-You can download the C# SDK <a href="https://raw.githubusercontent.com/KaveNegar/kavenegar-csharp/master/Kavenegar/bin/Debug/Kavenegar.dll">Here</a> or just pull it.
-Anyway there is good tutorial about <a href="http://gun.io/blog/how-to-github-fork-branch-and-pull-request/">Pull  request</a>
-</p>
+# <a href="https://ghasedak.io/kavenegar">migration guide</a>
+
+see the migration guide
+
+# Installation
+  
+## Nuget Package Manager
+   Install-Package Ghasedak.Kavenegar.Net -Version 1.0.1
+## .NET CLI 
+   dotnet add package Ghasedak.Kavenegar.Net --version 1.0.1
 
 ## Usage
-Well, There is an example to Send SMS by C#.
+Send Simple
 
 ```c#
 try
 {
-	Kavenegar.KavenegarApi api = new Kavenegar.KavenegarApi("Your Api Key");
-	var result = api.Send("SenderLine", "Your Receptor", "خدمات پیام کوتاه کاوه نگار");
-	foreach (var r in result){
-	  Console.Write("r.Messageid.ToString()");
-  }
+	Ghasedak.Kavenegar.KavenegarApi api = new Ghasedak.Kavenegar.KavenegarApi("Your Api Key");
+	var result = api.Send("SenderLine", "Your Receptor", "مهاجرت از کاوه نگار به قاصدک");
+	
+	Console.Write("r.Messageid.ToString()");
+  
 }
-catch (Kavenegar.Exceptions.ApiException ex) 
+catch (Ghasedak.Kavenegar.Exceptions.ApiException ex) 
 {
 	// در صورتی که خروجی وب سرویس 200 نباشد این خطارخ می دهد.
 	Console.Write("Message : " + ex.Message);
 }
-catch (Kavenegar.Exceptions.HttpException ex) 
+catch (Ghasedak.Kavenegar.Exceptions.HttpException ex) 
 {
 	// در زمانی که مشکلی در برقرای ارتباط با وب سرویس وجود داشته باشد این خطا رخ می دهد
 	Console.Write("Message : " + ex.Message);
 }
 ```
 
-## Contribution
-Bug fixes, docs, and enhancements welcome! Please let us know <a href="mailto:support@kavenegar.com?Subject=SDK" target="_top">support@kavenegar.com</a>
+## همکاری
+پیشنهادات، مشکلات احتمالی و یا سرویس های جدید مورد نیاز خود را با در میان بگذارید <a href="mailto:support@ghasedak.io?Subject=Kavenegar-SDK" target="_top">support@ghasedak.io</a>
+  
 <hr>
 <div dir='rtl'>
 	
 ## راهنما
 
-### معرفی سرویس کاوه نگار
+### معرفی سرویس قاصدک
 
-کاوه نگار یک وب سرویس ارسال و دریافت پیامک و تماس صوتی است که به راحتی میتوانید از آن استفاده نمایید.
-
-### ساخت حساب کاربری
-
-اگر در وب سرویس کاوه نگار عضو نیستید میتوانید از [لینک عضویت](http://panel.kavenegar.com/client/membership/register) ثبت نام  و اکانت آزمایشی برای تست API دریافت نمایید.
-
+قاصدک وب سرویس ارسال و دریافت پیامک و تماس صوتی است که به راحتی میتوانید از آن استفاده نمایید.
+ 
 ### مستندات
 
-برای مشاهده اطلاعات کامل مستندات [وب سرویس پیامک](http://kavenegar.com/وب-سرویس-پیامک.html)  به صفحه [مستندات وب سرویس](http://kavenegar.com/rest.html) مراجعه نمایید.
+برای مشاهده اطلاعات کامل مستندات وب سرویس به صفحه [مستندات وب سرویس](https://ghasedak.io/developers) مراجعه نمایید.
 
-### راهنمای فارسی
-
-در صورتی که مایل هستید راهنمای فارسی کیت توسعه کاوه نگار را مطالعه کنید به صفحه [کد ارسال پیامک](http://kavenegar.com/sdk.html) مراجعه نمایید.
-
-### اطالاعات بیشتر
-برای مطالعه بیشتر به صفحه معرفی
-[وب سرویس اس ام اس ](http://kavenegar.com)
-کاوه نگار
-مراجعه نمایید .
-
- اگر در استفاده از کیت های سرویس کاوه نگار مشکلی یا پیشنهادی  داشتید ما را با یک Pull Request  یا  ارسال ایمیل به support@kavenegar.com  خوشحال کنید.
  
-##
-![http://kavenegar.com](http://kavenegar.com/public/images/logo.png)		
+### اطالاعات بیشتر
+برای مطالعه بیشتر به صفحه[ مهاجرت از کاوه نگار به قاصدک ](https://ghasedak.io/kavenegar) مراجعه نمایید.
 
-[http://kavenegar.com](http://kavenegar.com)	
+##
+![https://ghasedak.io](https://ghasedak.io/img/logo.png)		
+
+[https://ghasedak.io](https://ghasedak.io)	
 
 </div>
 

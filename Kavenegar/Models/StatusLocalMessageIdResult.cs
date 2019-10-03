@@ -1,5 +1,5 @@
-using Kavenegar.Models.Enums;
-namespace Kavenegar.Models
+using Ghasedak.Kavenegar.Models.Enums;
+namespace Ghasedak.Kavenegar.Models
 {
  public class StatusLocalMessageIdResult
  {

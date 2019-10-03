@@ -5,12 +5,12 @@ using System.Linq;
 using System.Web.Script.Serialization;
 using System.Net;
 using System.Text;
-using Kavenegar.Exceptions;
-using Kavenegar.Models;
-using Kavenegar.Models.Enums;
-using Kavenegar.Utils;
+using Ghasedak.Kavenegar.Exceptions;
+using Ghasedak.Kavenegar.Models;
+using Ghasedak.Kavenegar.Models.Enums;
+using Ghasedak.Kavenegar.Utils;
 
-namespace Kavenegar
+namespace Ghasedak.Kavenegar
 {
     internal class ReturnResult
     {
@@ -626,8 +626,8 @@ namespace Kavenegar
             var l = jsonSerialiser.Deserialize<ReturnSend>(responsebody);
             return l.entries[0];
         }
-        
-        
+
+
         #region << CallMakeTTS >>
 
         public SendResult CallMakeTTS(string message, string receptor)

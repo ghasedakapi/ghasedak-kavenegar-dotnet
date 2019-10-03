@@ -1,7 +1,7 @@
 using System;
-using Kavenegar.Utils;
+using Ghasedak.Kavenegar.Utils;
 
-namespace Kavenegar.Models
+namespace Ghasedak.Kavenegar.Models
 {
  public class SendResult
  {
