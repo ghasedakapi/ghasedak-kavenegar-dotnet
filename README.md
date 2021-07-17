@@ -42,7 +42,7 @@ catch (Ghasedak.Kavenegar.Exceptions.HttpException ex)
 
 
 ### همکاری
-پیشنهادات، مشکلات احتمالی و یا سرویس های جدید مورد نیاز خود را با در میان بگذارید <a href="mailto:support@ghasedak.io?Subject=Kavenegar-SDK" target="_top">support@ghasedak.io</a>
+پیشنهادات، مشکلات احتمالی و یا سرویس های جدید مورد نیاز خود را با در میان بگذارید <a href="mailto:support@ghasedak.me?Subject=Kavenegar-SDK" target="_top">support@ghasedak.me</a>
   
 
 ### معرفی سرویس قاصدک
@@ -51,16 +51,16 @@ catch (Ghasedak.Kavenegar.Exceptions.HttpException ex)
  
 ### مستندات
 
-برای مشاهده اطلاعات کامل مستندات وب سرویس به صفحه [مستندات وب سرویس](https://ghasedak.io/developers) مراجعه نمایید.
+برای مشاهده اطلاعات کامل مستندات وب سرویس به صفحه [مستندات وب سرویس](https://ghasedak.me/developers) مراجعه نمایید.
 
  
 ### اطالاعات بیشتر
-برای مطالعه بیشتر به صفحه[ مهاجرت از کاوه نگار به قاصدک ](https://ghasedak.io/kavenegar) مراجعه نمایید.
+برای مطالعه بیشتر به صفحه[ مهاجرت از کاوه نگار به قاصدک ](https://ghasedak.me/kavenegar) مراجعه نمایید.
 
 ##
-![https://ghasedak.io](https://ghasedak.io/img/logo.png)		
+![https://ghasedak.me](https://ghasedak.me/img/logo.png)		
 
-[https://ghasedak.io](https://ghasedak.io)	
+[https://ghasedak.me](https://ghasedak.me)	
 
 </div>
 
